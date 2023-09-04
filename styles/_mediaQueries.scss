@@ -1,0 +1,20 @@
+$bps: (
+  "base": 0,
+  "mobile": 480px,
+  "smallTab": 720px,
+  "tablet": 960px,
+  "desktop": 1200px,
+  "widescreen": 1920px,
+);
+
+@mixin mdQueries($size: map-get($bps, "mobile")) {
+  @media screen and (max-width: $size) {
+    @content;
+  }
+}
+
+@mixin mdQueriesMinWidth($size: map-get($bps, "widescreen")) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}

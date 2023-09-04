@@ -1,0 +1,101 @@
+@import "/styles/index.scss";
+
+.mainContainer {
+  background-color: $mainDark;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "a b";
+  font-family: $serifTitle;
+  position: relative;
+  z-index: 1;
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .col1 {
+    grid-area: a;
+    place-content: center;
+    display: grid;
+    img {
+      // height: 100%;
+      max-width: 100%;
+      position: relative;
+      &:hover {
+        transition: all 0.2s ease;
+        transform: scale(1.05);
+        border-radius: 13px;
+      }
+    }
+  }
+
+  .col2 {
+    grid-area: b;
+    padding: 60px 50px 60px 80px;
+    p {
+      margin: 20px 0;
+    }
+    .tag {
+      color: inherit;
+      a {
+        margin: 0;
+      }
+      h3 {
+        cursor: pointer;
+        &:hover {
+          background-color: "";
+        }
+      }
+    }
+    .highlighted {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      font-size: 18px;
+      position: relative;
+      a {
+        color: inherit;
+        &::after {
+          display: none;
+          content: "";
+          position: absolute;
+          bottom: 0px;
+          left: -4px;
+          width: calc(100% + 8px);
+          height: 1px;
+          border: 1px solid;
+          animation: highlighted 0.5s ease-in-out;
+          z-index: 1;
+        }
+        &:hover {
+          color: inherit;
+          font-weight: bold;
+          &::after {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+.tag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  // row-gap: 13px;
+  h3 {
+    font-family: $grotesk;
+    font-size: 12px;
+    padding: 8px 13px;
+    border-radius: 21px;
+    border: 1px solid;
+    height: fit-content;
+    font-weight: normal;
+    &:hover {
+      font-weight: 600;
+      transition: all 0.1s ease-in-out;
+    }
+  }
+}

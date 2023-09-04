@@ -1,0 +1,84 @@
+@import "@/styles/index.scss";
+
+.shadow {
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #f8f9fb, #c3c8d6);
+  -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+  box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+}
+.shadow2 {
+  background: linear-gradient(145deg, #f8f9fb, #c3c8d6);
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+  box-shadow: 12px 12px 20px -5px #bfc4d4, -12px -12px 12px #f0f0f0;
+}
+.iconContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 370px;
+  p {
+    margin: 0;
+  }
+}
+.iconSkill {
+  position: relative;
+  &::after {
+    content: attr(title);
+    position: absolute;
+    font-size: 12px;
+    top: -70px;
+    left: 0;
+    background-color: $mainDark;
+    padding: 13px;
+    border-radius: 13px;
+    z-index: 2;
+    color: $mainLight;
+    width: max-content;
+    max-width: 300px;
+    min-height: 40px;
+    max-height: 40px;
+    display: none;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    min-height: 30px;
+    transform: rotate(45deg);
+    background-color: $mainDark;
+    bottom: 95%;
+    z-index: 2;
+    left: 22%;
+    display: none;
+  }
+  &:hover {
+    &::after,
+    &::before {
+      display: grid;
+      place-content: center;
+    }
+  }
+}
+
+.innerHtml {
+  position: relative;
+  top: -10px;
+  span {
+    position: absolute;
+    color: $vividBlue;
+    transition: all 0.2s ease-in-out;
+    width: max-content;
+    &:hover {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+  p {
+    color: $vividBlue;
+  }
+}

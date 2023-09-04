@@ -1,0 +1,29 @@
+@import "@/styles/index.scss";
+
+.cardsContainer {
+  margin-top: 150px;
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 4%;
+  row-gap: 1%;
+}
+.card {
+  display: grid;
+  width: 350px;
+  place-content: start;
+  padding: 40px;
+  margin: 40px auto;
+  font-family: $grotesk;
+  h1 {
+    margin: 0 0 20px 0;
+    font-weight: bold;
+    color: $vividBlue;
+  }
+  &:nth-last-child(1) {
+    width: 200%;
+    * {
+      width: 230%;
+    }
+  }
+}

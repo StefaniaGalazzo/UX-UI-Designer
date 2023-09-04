@@ -1,0 +1,72 @@
+@import "@/styles/index.scss";
+
+.main {
+  display: flex;
+  padding: 120px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 13%;
+  background-color: #f8f8f8;
+  z-index: 1;
+  position: relative;
+  .texts {
+    width: 56%;
+    h1 {
+      font-size: 45px;
+    }
+    h3 {
+      margin: 40px 0;
+      font-size: 18px;
+      font-weight: normal;
+    }
+    .enphasis {
+      color: $vividBlue;
+    }
+  }
+}
+.cta {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  flex-grow: 1;
+  // .copied {
+  //   background-color: $mainDark;
+  //   display: flex;
+  //   gap: 8px;
+  //   color: $mainLight;
+  //   font-family: $grotesk;
+  //   padding: 8px 13px;
+  //   border-radius: 21px;
+  //   font-size: 12px;
+  //   position: absolute;
+  //   left: 50%;
+  //   top: 0;
+  //   animation: fadeOut 1.5s ease-out 0.1s 1;
+  //   opacity: 0;
+  //   z-index: 21;
+  // }
+}
+.comingsoon {
+  min-height: 300px;
+  display: grid;
+  place-content: center;
+  animation: gradient 8s ease infinite;
+  background: linear-gradient(-45deg, #178d87, #304791, #ad2a31, #ccb136);
+  background-size: 200% 200%;
+  padding: $pagePadding;
+  font-size: 80px;
+  text-align: center;
+  color: $mainLight;
+  font-size: 50px;
+  font-weight: bold;
+  h4,
+  h6 {
+    font-family: $serifTitle;
+  }
+  h6 {
+    font-size: 21px;
+    font-weight: normal;
+  }
+}

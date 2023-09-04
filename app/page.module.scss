@@ -1,0 +1,58 @@
+@import "@/styles/index.scss";
+
+.nav,
+.pagesNav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 33%;
+}
+.nav {
+  background: rgb(0, 0, 70);
+  padding: 15px 80px;
+}
+
+.nav,
+.pagesNav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 33%;
+}
+.nav {
+  background: #000046;
+  padding: 15px 80px;
+  .logo {
+    &:hover {
+      transition: transform 1s linear;
+      transform-origin: bottom center;
+      transform-style: preserve-3D;
+      animation: oscillation 3s ease-in-out;
+    }
+  }
+}
+.pagesNav {
+  li {
+    color: #f3f3f3;
+    position: relative;
+    &::after {
+      display: none;
+      content: "";
+      position: absolute;
+      bottom: 10px;
+      left: -4px;
+      width: calc(100% + 8px);
+      height: 2px;
+      background-color: #f3f3f3;
+      animation: highlighted 0.3s ease-in-out;
+      z-index: 1;
+    }
+    &:hover {
+      color: $acidYellow;
+      font-weight: bold;
+      &::after {
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "@/styles/index.scss";
+
+.btn {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 5%;
+  z-index: 0;
+  color: $vividBlue;
+  left: 95%;
+  font-size: 30px;
+  border: 2px solid $vividBlue;
+  border-radius: 20px;
+  width: 40px;
+  display: grid;
+  place-content: center;
+  height: 40px;
+}

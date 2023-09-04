@@ -1,0 +1,86 @@
+@import "/styles/index.scss";
+
+.nav {
+  background: rgb(0, 0, 70);
+  padding: 15px 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 8;
+  height: 100px;
+}
+
+.nav,
+.pagesNav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 33%;
+}
+.nav {
+  background: #000046;
+  padding: 15px 80px;
+  .imageContainer {
+    position: relative;
+  }
+  .logo {
+    &:hover {
+      transition: transform 1s linear;
+      transform-origin: bottom center;
+      transform-style: preserve-3D;
+      animation: oscillation 3s ease-in-out;
+    }
+  }
+}
+.pagesNav {
+  position: absolute;
+  left: 49vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  font-family: $grotesk;
+  color: $mainLight;
+  p {
+    position: relative;
+    a {
+      text-decoration: none;
+      color: $acidYellow;
+    }
+    &::after {
+      display: none;
+      content: "";
+      position: absolute;
+      bottom: 10px;
+      left: -4px;
+      width: calc(100% + 8px);
+      height: 2px;
+      background-color: #f3f3f3;
+      animation: highlighted 0.3s ease-in-out;
+      z-index: 1;
+    }
+    &:hover {
+      color: $acidYellow;
+      font-weight: bold;
+      &::after {
+        display: block;
+      }
+    }
+  }
+  .line {
+    position: absolute;
+    top: 30px;
+    left: -4px;
+    width: calc(100% + 8px);
+    height: 2px;
+    background-color: #f3f3f3;
+    animation: highlighted 0.3s ease-in-out;
+    z-index: 1;
+  }
+  .nostyle {
+    text-decoration: none !important;
+    list-style: none !important;
+    color: inherit;
+  }
+}

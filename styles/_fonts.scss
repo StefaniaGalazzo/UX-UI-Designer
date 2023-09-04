@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;700;800&family=Space+Grotesk:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap");
+
+$serifTitle: "DM Serif Display", serif;
+$grotesk: "Sora", "Space Grotesk", sans-serif;
+$sansBody: "Roboto", sans-serif;
+
+$mainFont: "Sora", sans-serif;
+$scondarySans: "Poppins", sans-serif;
+
+$fontWeight: (
+  "regular": 400,
+  "semibold": 700,
+  "bold": 800,
+);
+
+$fontSize: (
+  //error message input
+  "xs": calc(0.5rem + 0.3vw),
+  // small paragraph
+  "sm": calc(0.6rem + 0.3vw),
+  // paragraph
+  "md": calc(0.7rem + 0.3vw),
+  // small paragraph title
+  "lg": calc(0.8rem + 0.45vw),
+  // paragraph title
+  "xl": 1.2rem,
+  // section title
+  "xl+": calc(1.4rem + 0.8vw),
+  "xl++": calc(2rem + 1vw),
+  "xxl": calc(3rem + 1vw),
+  "xxl+": calc(3.5rem + 1.3vw),
+  // i dont know yet
+  "veryBig": calc(3rem + 4.5vw),
+  "veryBig--": calc(4rem + 1.8vw) //biggest text for small devices
+);

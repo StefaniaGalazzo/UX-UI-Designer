@@ -1,0 +1,15 @@
+@import "@/styles/index.scss";
+.circle {
+  position: relative;
+  .circTxt {
+    position: absolute;
+    top: -44px;
+    height: 130%;
+    left: -42px;
+    font-size: 8px;
+    font-weight: bold;
+    color: $vividBlue;
+    transform: rotate(90deg);
+    // animation: rotate 23s linear infinite;
+  }
+}

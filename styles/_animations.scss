@@ -1,0 +1,59 @@
+@keyframes highlighted {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: calc(100% + 8px);
+  }
+}
+
+@keyframes oscillation {
+  0% {
+    transform: rotate(13deg);
+  }
+  25% {
+    transform: rotate(-13deg);
+  }
+  50% {
+    transform: rotate(13deg);
+  }
+  75% {
+    transform: rotate(-13deg);
+  }
+  100% {
+    transform: rotate(13deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

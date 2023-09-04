@@ -1,0 +1,57 @@
+// Colors
+$mainDark: #000046;
+$minorDark: #2f2f9e;
+
+$mainLight: #f0f7de;
+$vividBlue: #4739de;
+$acidYellow: #e6ffa2;
+
+$colorfull: linear-gradient(
+  161deg,
+  #2044a2 14.45%,
+  #3c99ff 40.22%,
+  #00aa52 66.75%,
+  #f7b304 88.29%
+);
+
+$primaryColorGradient: linear-gradient(
+  97.72deg,
+  #032f4eea 1.18%,
+  #2080c59e 52.38%,
+  #afdcfc9d 99.49%
+);
+
+$secondaryColorGradient: linear-gradient(
+  -45deg,
+  #00533abc 1.18%,
+  #4bcda6ab 52.38%,
+  #adf6e0a6 99.49%
+);
+
+$tertiaryColorGradient: linear-gradient(
+  -45deg,
+  #d855497c 1.18%,
+  #ff766a7d 52.38%,
+  #ffe3b86b 99.49%
+);
+
+$primaryColorGradientCircular: radial-gradient(
+  rgba(175, 220, 252, 0.3) 0%,
+  rgba(72, 163, 228, 0.5) 0%,
+  rgba(3, 36, 59, 0.8) 100%
+);
+
+$darkTranspGradient: linear-gradient(to right, #032f4e00 10%, #032f4eea 45%);
+
+$lightTranspGradient: linear-gradient(120deg, #f3faffea 50%, #ebf7ff0c 80%);
+
+// radius
+$btnRadius: 8px;
+$bigRad: 100px;
+
+// shadows
+$mainShadow: 0px 0px 20px lighten($mainDark, 10);
+
+// padding
+$slashedTextPadd: calc(25px + 2vw);
+$pagePadding: 40px;
