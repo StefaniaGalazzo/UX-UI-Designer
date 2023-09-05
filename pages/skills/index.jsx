@@ -140,7 +140,7 @@ export default function skills() {
     {
       title: "Work Experiences",
       innerHtml:
-        "<p>Front-end Developer @RWS Digital / UI development with Next.js, Angular / working in team / <br>April 2022 > August 2023</p><br><p>Front-end Developer @Edgemony Coding Bootcamp / development of a web app mobile first / working in team with agile methodology / <br>February 2022 </p><br><p> Web and graphic designer @Mobike Shop Valencia / <br>March 2020 > July 2020 </p><br><p>Web and graphic designer @Kidimpro, performative practice for families / <br>March > September 2019</p>",
+        "<p>Web Designer @Alkantara Fest / Design and annual restyling, maintenance of the wordpress site / <br>April 2022 > Current</p><br><p>Front-end Developer @RWS Digital / UI development with Next.js, Angular / working in team / <br>April 2022 > August 2023</p><br><p>Front-end Developer @Edgemony Coding Bootcamp / development of a web app mobile first / working in team with agile methodology / <br>February 2022 </p><br><p> Web and graphic designer @Mobike Shop Valencia / <br>March 2020 > July 2020 </p><br><p>Web and graphic designer @Kidimpro, performative practice for families / <br>March > September 2019</p>",
     },
   ];
   return (

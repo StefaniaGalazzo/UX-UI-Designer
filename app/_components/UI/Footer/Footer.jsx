@@ -7,6 +7,7 @@ export default function Footer() {
       <p>
         Do you like what you see? Are you looking for a UX/UI designer for a
         project or to integrate into your team?
+        <br />
         <span className="bold"> Contact me now</span>
         <span className="relative" style={{ margin: "0 20px" }}>
           <MailBtn

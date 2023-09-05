@@ -2,6 +2,7 @@
 
 .main {
   display: flex;
+  flex-wrap: wrap;
   padding: 120px;
   justify-content: flex-start;
   align-items: center;
@@ -31,22 +32,6 @@
   flex-wrap: wrap;
   gap: 30px;
   flex-grow: 1;
-  // .copied {
-  //   background-color: $mainDark;
-  //   display: flex;
-  //   gap: 8px;
-  //   color: $mainLight;
-  //   font-family: $grotesk;
-  //   padding: 8px 13px;
-  //   border-radius: 21px;
-  //   font-size: 12px;
-  //   position: absolute;
-  //   left: 50%;
-  //   top: 0;
-  //   animation: fadeOut 1.5s ease-out 0.1s 1;
-  //   opacity: 0;
-  //   z-index: 21;
-  // }
 }
 .comingsoon {
   min-height: 300px;
@@ -68,5 +53,21 @@
   h6 {
     font-size: 21px;
     font-weight: normal;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    row-gap: 5%;
+    justify-content: center;
+    padding: 5%;
+    .texts {
+      margin-top: 8%;
+      width: 85%;
+      text-align: center;
+    }
+    .cta {
+      justify-content: center;
+      row-gap: 0%;
+    }
   }
 }

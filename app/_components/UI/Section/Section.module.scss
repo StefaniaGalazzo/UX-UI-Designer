@@ -99,3 +99,14 @@
     }
   }
 }
+@media only screen and (max-width: 600px) {
+  .mainContainer {
+    // grid-template-columns: 100%;
+    grid-template-areas: "b b" "a a" !important;
+  }
+  .anchor {
+    display: block;
+    // height: 80px;
+    margin: 0;
+  }
+}

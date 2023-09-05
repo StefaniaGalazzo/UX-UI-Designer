@@ -27,3 +27,19 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    .card {
+      width: 70%;
+      &:nth-last-child(1) {
+        width: 70%;
+        * {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
