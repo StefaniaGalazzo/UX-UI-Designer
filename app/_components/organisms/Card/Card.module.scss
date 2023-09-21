@@ -17,6 +17,8 @@
 .iconContainer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
   gap: 20px;
   max-width: 370px;
   p {
@@ -25,8 +27,9 @@
 }
 .iconSkill {
   position: relative;
-  &::after {
-    content: attr(title);
+
+  &[data-title]::after {
+    content: attr(data-title);
     position: absolute;
     font-size: 12px;
     top: -70px;
@@ -67,6 +70,10 @@
 
 .innerHtml {
   position: relative;
+  width: 80%;
+  margin: 0 auto;
+  // justify-content: flex-start;
+  // text-align: center;
   top: -10px;
   span {
     position: absolute;
@@ -80,5 +87,17 @@
   }
   p {
     color: $vividBlue;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  // .iconContainer {
+  //   justify-content: center;
+  // }
+  .innerHtml {
+    justify-content: flex-start;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 20px;
   }
 }

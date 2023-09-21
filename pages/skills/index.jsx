@@ -14,55 +14,49 @@ export default function skills() {
           id: 0,
           src: "/assets/imgs/figma.svg",
           alt: "Figma software",
-          description:
-            "Figma is the vector-based collaborative design tool for building meaningful products.",
+          description: "★★★★★",
         },
         {
           id: 1,
           src: "/assets/imgs/xd.svg",
-          alt: "XD  software",
-          description:
-            "Adobe XD is vector-based user experience design software for web and mobile apps produced by Adobe Creative Cloud.",
+          alt: "XD software",
+          description: "★★★★☆",
         },
         {
           id: 2,
           src: "/assets/imgs/dora.png",
           alt: "Dora AI",
-          description:
-            "Dora AI - Design and publish stunning 3D & animated websites effortlessly, without the need for coding. ",
+          description: "★★★☆☆",
         },
         {
           id: 3,
           src: "/assets/imgs/html5.svg",
           alt: "html5",
-          description: "HyperText Markup Language",
+          description: "★★★★☆",
         },
         {
           id: 4,
           src: "/assets/imgs/css3.svg",
-          alt: "css3",
-          description: "Cascading Style Sheets",
+          alt: "Cascading Style Sheets 3",
+          description: "★★★★☆",
         },
         {
           id: 5,
           src: "/assets/imgs/illustrator.svg",
           alt: "Illustrator software",
-          description:
-            "Adobe Illustrator is a vector-based software for design",
+          description: "★★★★★",
         },
         {
           id: 6,
           src: "/assets/imgs/photoshop.svg",
           alt: "Photoshop software",
-          description:
-            "Adobe Photoshop is a bitmap-based software for photo editing",
+          description: "★★★★☆",
         },
         {
           id: 7,
           src: "/assets/imgs/aftereffects.svg",
           alt: "Aftereffect software",
-          description:
-            "Adobe After Effects is professional-grade graphics animation, animation, compositing, and video editing software",
+          description: "★★★★★",
         },
       ],
     },
@@ -78,57 +72,57 @@ export default function skills() {
         {
           src: "/assets/imgs/react.svg",
           alt: "React.js",
-          description:
-            "React is an open-source, front-end, JavaScript framework for building user interfaces. ",
+          description: "★★★☆☆",
         },
         {
           src: "/assets/imgs/next.svg",
           alt: "Next.js",
-          description: "The React Framework for the Web",
+          description: "★★★☆☆",
         },
         {
           src: "/assets/imgs/sass.svg",
           alt: "Sass preprocessor",
-          description:
-            "Sass is an extension of the CSS language that allows you to use variables, create functions and organize the style sheet into multiple files.",
+          description: "★★★☆☆",
         },
         {
           src: "/assets/imgs/three.svg",
           alt: "three.js for React",
-          description:
-            "Three.js is a cross-browser JavaScript library used to create and display animated 3D design using WebGL",
+          description: "★★★☆☆",
         },
         {
           src: "/assets/imgs/git.svg",
           alt: "git",
-          description:
-            "Git is a free and open source distributed version control system ",
+          description: "★★★☆☆",
         },
         {
           src: "/assets/imgs/github.svg",
           alt: "github",
-          description:
-            "Github is a developer platform to build, store, scale, and deliver secure software.",
+          description: "★★★☆☆",
         },
         {
           src: "/assets/imgs/js.svg",
           alt: "Javascript",
-          description: "Javascript: base level",
+          description: "★★☆☆☆",
         },
+      ],
+    },
+    {
+      title: "Languages Skills",
+      imgsArr: [
         {
           src: "/assets/imgs/ita.svg",
           alt: "Italian: native level",
-          description: "Italian: native level",
+          description: "Native",
         },
         {
           src: "/assets/imgs/eng.svg",
-          alt: "English: 3/5 level",
-          description: "English: 3/5 level",
+          alt: "English: Compared B1",
+          description: "Compared B1",
         },
         {
           src: "/assets/imgs/esp.svg",
-          alt: "Spanish: 3/5 level",
-          description: "Spanish: 3/5 level",
+          alt: "Spanish: Compared B1",
+          description: "Compared B1",
         },
       ],
     },
