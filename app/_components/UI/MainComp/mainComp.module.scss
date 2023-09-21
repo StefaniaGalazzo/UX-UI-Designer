@@ -60,14 +60,15 @@
     row-gap: 5%;
     justify-content: center;
     padding: 5%;
-    .texts {
-      margin-top: 8%;
-      width: 85%;
-      text-align: center;
-    }
-    .cta {
-      justify-content: center;
-      row-gap: 0%;
-    }
+    margin-top: calc(10% + 1vw);
+  }
+  .texts {
+    margin-top: 8%;
+    width: 85%;
+    text-align: center;
+  }
+  .cta {
+    justify-content: center;
+    row-gap: 0%;
   }
 }

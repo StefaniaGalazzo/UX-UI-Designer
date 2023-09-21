@@ -103,6 +103,15 @@
   .mainContainer {
     // grid-template-columns: 100%;
     grid-template-areas: "b b" "a a" !important;
+    h1 {
+      font-size: 3.3rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    .col2 {
+      padding: 3rem;
+    }
   }
   .anchor {
     display: block;
