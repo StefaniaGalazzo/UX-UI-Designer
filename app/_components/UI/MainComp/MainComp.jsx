@@ -131,10 +131,10 @@ export default function MainComp() {
         ]}
       />
       <section className={styles.comingsoon}>
-        <h4>COOMING SOON</h4>
+        <h4>COMING SOON</h4>
         <h6>A progect that may change something in our lives</h6>
       </section>
-      <ToTopBtn href={"#top"} />
+      <ToTopBtn href={"/#top"} />
     </>
   );
 }
