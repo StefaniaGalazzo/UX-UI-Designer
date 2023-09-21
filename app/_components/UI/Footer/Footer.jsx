@@ -9,7 +9,12 @@ export default function Footer() {
         project or to integrate into your team?
         <br />
         <span className="bold"> Contact me now</span>
-        <span className="relative" style={{ margin: "0 20px" }}>
+        <br />
+        <br />
+        <span
+          className="relative"
+          style={{ margin: "0 20px", display: "block" }}
+        >
           <MailBtn
             isFooter
             blank
