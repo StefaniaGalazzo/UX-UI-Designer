@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Navbar.module.scss";
 import { useRouter } from "next/router";
+import { BiDownload } from "react-icons/bi";
 import "@/app/global.scss";
 
 export default function Navbar({ id }) {
@@ -33,12 +34,25 @@ export default function Navbar({ id }) {
             : {}
         }
       >
-        {console.log(router)}
-        <Link href="/skills" className={styles.nostyle}>
+        {/* {console.log(router)} */}
+        <Link
+          href="/skills"
+          className={
+            router.pathname == "/skills" ? styles.nostyle : styles.aNav
+          }
+        >
           Skills
         </Link>
         {router.pathname == "/skills" && <span className={styles.line}></span>}
       </p>
+
+      <a
+        href="/assets/CV_StefaniaGalazzo_2023.pdf"
+        download
+        className={styles.downloadCV}
+      >
+        <BiDownload /> CV
+      </a>
     </nav>
   );
 }

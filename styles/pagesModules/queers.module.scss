@@ -8,9 +8,9 @@
     gap: 40px;
     .textBoxes {
       display: grid;
-      gap: 5%;
+      gap: 2%;
       margin: 20px auto;
-      grid-template-columns: repeat(3, 33%);
+      grid-template-columns: 30% 30% 35%;
       justify-items: center;
     }
     h5 {
@@ -21,6 +21,15 @@
         font-size: 16px;
         position: absolute;
         top: 4px;
+      }
+    }
+    .logos {
+      display: flex;
+      justify-content: space-between;
+      width: 65%;
+      img {
+        width: auto;
+        height: 80px;
       }
     }
   }

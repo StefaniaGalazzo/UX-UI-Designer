@@ -19,14 +19,10 @@ export default function Roomatch() {
           title={"Roomatch"}
           subtitle={"Find your perfect roomate!"}
           bodytext={`Tired of roomate horror stories? Welcome to RooMatch, a mobile first web app where you can find the perfect room at the perfect price with the perfect roommate!`}
-          // cta={[
-          //   { title: "the prototype", link: false },
-          //   { title: "the project", link: "/roomatch" },
-          // ]}
           bckColor={"#e2eef6"}
           txtColor={"#a90097"}
           img={"/assets/imgs/mobile-mockup-roomatch.png"}
-          gridTemplArea={`"b a"  !important`}
+          gridTemplArea={`"b a"`}
           shadow={"#a90097"}
           tags={[
             { tag: "UI Design" },

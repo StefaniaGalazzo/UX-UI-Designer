@@ -84,14 +84,13 @@ export default function MainComp() {
         bodytext={
           "A mobile app that offers itself as a point of reference for the LGBTQ+ community, dedicated on the one hand to providing services, entertainment and products to users on the other hand to helping local associations to network in the area with collaborations and information, awareness-raising actions , training, support etc."
         }
-        link={"/protoripodfivovjn"}
         cta={[
-          {
-            title: "the prototype in HD wireframe",
-            link: "https://xd.adobe.com/view/fcf12589-7081-4c6a-bec1-3ccaef3d085d-a9a2/?fullscreen&hints=off",
-            blank: true,
-          },
-          // { title: "the project", link: "/queersapp" },
+          // {
+          //   title: "the prototype in HD wireframe",
+          //   link: "https://xd.adobe.com/view/8ac780e6-119f-4e6d-b1a8-a186d38c7f41-df94/?fullscreen",
+          //   blank: true,
+          // },
+          { title: "the project", link: "/queers-app" },
         ]}
         bckColor={"#fff6fe"}
         txtColor={"#dc6dd0"}

@@ -14,7 +14,7 @@
 .nav,
 .pagesNav {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   gap: 33%;
 }
@@ -34,8 +34,8 @@
   }
 }
 .pagesNav {
-  position: absolute;
-  left: 49vw;
+  position: relative;
+  // left: 49vw;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -44,6 +44,7 @@
   color: $mainLight;
   p {
     position: relative;
+    color: $acidYellow;
     a {
       text-decoration: none;
       color: $acidYellow;
@@ -80,7 +81,30 @@
   }
   .nostyle {
     text-decoration: none !important;
-    list-style: none !important;
-    color: inherit;
+    color: $acidYellow;
+  }
+}
+.downloadCV,
+.pagesNav > .aNav {
+  color: $acidYellow;
+  position: relative;
+  &::after {
+    display: none;
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: -4px;
+    width: calc(100% + 8px);
+    height: 2px;
+    background-color: #f3f3f3;
+    animation: highlighted 0.3s ease-in-out;
+    z-index: 1;
+  }
+  &:hover {
+    color: lighten($acidYellow, 20);
+    font-weight: bold;
+    &::after {
+      display: block;
+    }
   }
 }
