@@ -1,5 +1,4 @@
-"use client";
-import React from "react";
+// "use client";
 import styles from "../Buttons/Buttons.module.scss";
 
 export default function ButtonsShadow({ txt, href, blank, shadow, onclick }) {
