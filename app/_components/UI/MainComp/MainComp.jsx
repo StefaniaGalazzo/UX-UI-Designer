@@ -14,8 +14,8 @@ export default function MainComp() {
         <div className={styles.texts}>
           {/* <h1 className={styles.description}>
             Hi! I&apos;m a<span className={styles.enphasis}> UI Designer </span>
-            with strong interest in
-            <span className={styles.enphasis}> Accessibility</span>
+            and
+            <span className={styles.enphasis}> Creative Fronteend-dev</span>
           </h1>
           <h3>
             I always care about people. Like UI designer i cant image to create
@@ -23,13 +23,7 @@ export default function MainComp() {
             Fortunally, I&apos;ve a big passion for frontend developing
           </h3> */}
           <div className={styles.cta}>
-            <ToTopBtn
-              href={"/#projects"}
-              txt={"Projects"}
-              toPosition
-              download
-              blank
-            />
+            <ToTopBtn href={"/#projects"} txt={"Projects"} toPosition />
 
             {/* <ButtonsShadow txt={"Projects"} href={"/#projects"} /> */}
             <ButtonsShadow txt={"Skills"} href={"/skills"} blank />
