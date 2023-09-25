@@ -28,13 +28,13 @@ export default function QueersApp() {
           gridTemplArea={`"a b"`}
           shadow={"#4739de"}
           tags={[
-            { tag: "UI Design" },
-            { tag: "UX Design" },
-            { tag: "UX Personas" },
-            { tag: "UX interview" },
+            { tag: "UI Design", id: "#ui" },
+            { tag: "UX Design", id: "#ux" },
+            { tag: "UX Personas", id: "#personas" },
+            { tag: "UX Interview", id: "#interview" },
+            { tag: "Wirefrime", id: "#wirefrime" },
+            { tag: "Prototype", id: "#prototype" },
             { tag: "Icon-set" },
-            { tag: "Wirefrime" },
-            { tag: "Prototype" },
             { tag: "Adobe XD" },
           ]}
         />
@@ -96,7 +96,7 @@ export default function QueersApp() {
         </section>
 
         {/* WIRE SECTION */}
-        <a id={"wire"} className={styles.anchor}></a>
+        <a id={"wireframe"} className={styles.anchor}></a>
         <section className={styles.secondInnerSection}>
           <h1>Wireframe</h1>
           <div className={styles.textBoxes}>
@@ -133,7 +133,7 @@ export default function QueersApp() {
             className={styles.mockup}
           />
         </section>
-        <ToTopBtn href={"#top"} />
+        <ToTopBtn href={"#top"} toTOP />
         <Footer />
       </div>
     </>

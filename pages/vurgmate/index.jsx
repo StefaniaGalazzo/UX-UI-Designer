@@ -126,7 +126,7 @@ export default function Vurgmate() {
             className={styles.mockup}
           />
         </section>
-        <ToTopBtn href={"#top"} />
+        <ToTopBtn href={"#top"} toTOP />
         <Footer />
       </div>
     </>

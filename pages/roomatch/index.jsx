@@ -97,7 +97,7 @@ export default function Roomatch() {
             className={styles.mockup}
           />
         </section>
-        <ToTopBtn href={"#top"} />
+        <ToTopBtn href={"#top"} toTOP />
       </div>
     </>
   );

@@ -15,14 +15,14 @@ export default function MainComp() {
           <h1 className={styles.description}>
             Hi! I&apos;m a<span className={styles.enphasis}> UI Designer </span>
             and
-            <span className={styles.enphasis}> Creative Fronteend-dev</span>
+            <span className={styles.enphasis}> Creative Fronteend</span>
           </h1>
           <h3>
             I like to draw and design web apps with great visual impact. As a UI
             Designer I use Figma to create prototypes, as a Creative Frontend
-            Developer I create the HTML, CSS and JS structure of the app with
-            the currently most used libraries and frameworks (React, Three, js,
-            GSAP, etc).
+            Developer I create the base HTML, CSS and JS structure of the app
+            with the currently most used libraries and frameworks (React, Three,
+            js, GSAP, etc).
           </h3>
           <div className={styles.cta}>
             <ToTopBtn href={"/#projects"} txt={"Projects"} toPosition />
