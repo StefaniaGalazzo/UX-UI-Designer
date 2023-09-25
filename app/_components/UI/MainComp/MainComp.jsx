@@ -10,9 +10,9 @@ export default function MainComp() {
   return (
     <>
       <div className={styles.main} id="top">
-        <Circle />
+        {/* <Circle /> */}
         <div className={styles.texts}>
-          <h1 className={styles.description}>
+          {/* <h1 className={styles.description}>
             Hi! I&apos;m a<span className={styles.enphasis}> UI Designer </span>
             with strong interest in
             <span className={styles.enphasis}> Accessibility</span>
@@ -21,10 +21,10 @@ export default function MainComp() {
             I always care about people. Like UI designer i cant image to create
             a design that dont fit with the accessibility web standars.
             Fortunally, I&apos;ve a big passion for frontend developing
-          </h3>
+          </h3> */}
           <div className={styles.cta}>
-            <a href="#projects">Project</a>
-            {/* <ButtonsShadow txt={"Projects"} href={"/#projects"} /> */}
+            <ToTopBtn href={"/#projects"} toPosition />
+            <ButtonsShadow txt={"Projects"} href={"/#projects"} />
             <ButtonsShadow txt={"Skills"} href={"/skills"} blank />
             <ButtonsShadow
               href={"/assets/CV_StefaniaGalazzo_2023.pdf"}
@@ -141,7 +141,7 @@ export default function MainComp() {
         <h4>COMING SOON</h4>
         <h6>A progect that may change something in our lives</h6>
       </section>
-      <ToTopBtn href={"/#top"} />
+      <ToTopBtn href={"/#top"} toTOP />
     </>
   );
 }
