@@ -23,7 +23,15 @@ export default function MainComp() {
             Fortunally, I&apos;ve a big passion for frontend developing
           </h3> */}
           <div className={styles.cta}>
-            <ButtonsShadow txt={"Projects"} href={"/#projects"} />
+            <ToTopBtn
+              href={"/#projects"}
+              txt={"Projects"}
+              toPosition
+              download
+              blank
+            />
+
+            {/* <ButtonsShadow txt={"Projects"} href={"/#projects"} /> */}
             <ButtonsShadow txt={"Skills"} href={"/skills"} blank />
             <ButtonsShadow
               href={"/assets/CV_StefaniaGalazzo_2023.pdf"}

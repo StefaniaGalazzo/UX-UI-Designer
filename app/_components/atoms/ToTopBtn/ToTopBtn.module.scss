@@ -16,17 +16,18 @@
   height: 40px;
 }
 .toPosition {
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 85%;
-  z-index: 0;
-  color: $vividBlue;
-  left: 95%;
-  font-size: 30px;
-  border: 2px solid $vividBlue;
-  border-radius: 20px;
-  width: 40px;
-  display: grid;
-  place-content: center;
-  height: 40px;
+  // position: -webkit-sticky;
+  // position: sticky;
+  // bottom: 85%;
+  // z-index: 0;
+  // color: $vividBlue;
+  // left: 95%;
+  // font-size: 30px;
+  // border: 2px solid $vividBlue;
+  // border-radius: 20px;
+  // width: 40px;
+  // display: grid;
+  // place-content: center;
+  // height: 40px;
+  @include circBtns;
 }
