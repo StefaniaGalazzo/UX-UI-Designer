@@ -10,7 +10,7 @@ export default function MainComp() {
   return (
     <>
       <div className={styles.main} id="top">
-        {/* <Circle /> */}
+        <Circle />
         <div className={styles.texts}>
           <h1 className={styles.description}>
             Hi! I&apos;m a<span className={styles.enphasis}> UI Designer </span>
