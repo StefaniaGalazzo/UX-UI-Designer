@@ -12,20 +12,20 @@ export default function MainComp() {
       <div className={styles.main} id="top">
         {/* <Circle /> */}
         <div className={styles.texts}>
-          {/* <h1 className={styles.description}>
+          <h1 className={styles.description}>
             Hi! I&apos;m a<span className={styles.enphasis}> UI Designer </span>
             and
             <span className={styles.enphasis}> Creative Fronteend-dev</span>
           </h1>
           <h3>
-            I always care about people. Like UI designer i cant image to create
-            a design that dont fit with the accessibility web standars.
-            Fortunally, I&apos;ve a big passion for frontend developing
-          </h3> */}
+            I like to draw and design web apps with great visual impact. As a UI
+            Designer I use Figma to create prototypes, as a Creative Frontend
+            Developer I create the HTML, CSS and JS structure of the app with
+            the currently most used libraries and frameworks (React, Three, js,
+            GSAP, etc).
+          </h3>
           <div className={styles.cta}>
             <ToTopBtn href={"/#projects"} txt={"Projects"} toPosition />
-
-            {/* <ButtonsShadow txt={"Projects"} href={"/#projects"} /> */}
             <ButtonsShadow txt={"Skills"} href={"/skills"} blank />
             <ButtonsShadow
               href={"/assets/CV_StefaniaGalazzo_2023.pdf"}
