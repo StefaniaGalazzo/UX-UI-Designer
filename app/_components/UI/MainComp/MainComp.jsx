@@ -21,8 +21,8 @@ export default function MainComp() {
             I like to draw and design web apps with great visual impact. As a UI
             Designer I use Figma to create prototypes, as a Creative Frontend
             Developer I create the base HTML, CSS and JS structure of the app
-            with the currently most used libraries and frameworks (React, Three,
-            js, GSAP, etc).
+            with the currently most used libraries and frameworks.
+            {/* <span> (React, Three, JS, GSAP, etc).</span> */}
           </h3>
           <div className={styles.cta}>
             <ToTopBtn href={"/#projects"} txt={"Projects"} toPosition />

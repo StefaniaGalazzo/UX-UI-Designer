@@ -90,8 +90,8 @@ export default function QueersApp() {
             Personas, User Journeys and an empathy map were outlined
           </p>
           <div className={styles.imgs}>
-            <img src="/assets/imgs/personas-vurg-1.svg" alt="user-personas-1" />
-            <img src="/assets/imgs/personas-vurg-2.svg" alt="user-personas-2" />
+            <img src="/assets/imgs/queers-personas.png" alt="user-persona-1" />
+            {/* <img src="/assets/imgs/personas-vurg-2.svg" alt="user-persona-2" /> */}
           </div>
         </section>
 
@@ -101,13 +101,13 @@ export default function QueersApp() {
           <h1>Wireframe</h1>
           <div className={styles.textBoxes}>
             <p>
-              Wireframes are the first draft to start imagining the best layout
-              for the project. In this case, digitally hand-drawn.
+              For this project the wireframes were digitally sketched with
+              temporary vector graphics
             </p>
           </div>
 
           <img
-            src={"/assets/imgs/vurg-wireframe-mockup.png"}
+            src={"/assets/imgs/queers-wireframe.png"}
             alt="wireframe"
             width={"80%"}
             height={"auto"}
@@ -118,11 +118,13 @@ export default function QueersApp() {
         {/* UI SECTION */}
         <a id={"ui"} className={styles.anchor}></a>
         <section className={styles.secondInnerSection}>
-          <h1>UI Design</h1>
+          <h1>UI Design and Prototype</h1>
           <div className={styles.textBoxes}>
             <p>
-              After designing the UX and establishing the color scheme here is
-              the interface design.
+              After designing the UX and establishing the color scheme, icons
+              and elements, here is the interface design and a brief video of
+              the prototype in HD wireframes. The entire application has
+              approximately 127 screens.
             </p>
           </div>
           <img
