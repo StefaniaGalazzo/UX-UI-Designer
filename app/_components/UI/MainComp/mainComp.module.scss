@@ -17,7 +17,7 @@
       font-size: 45px;
     }
     h3 {
-      margin: 40px 0;
+      margin: 40px 0 20px 0;
       font-size: 18px;
       font-weight: normal;
     }
@@ -32,6 +32,9 @@
   flex-wrap: wrap;
   gap: 30px;
   flex-grow: 1;
+  a {
+    margin: 10px 0;
+  }
 }
 .comingsoon {
   min-height: 300px;
@@ -62,7 +65,7 @@
     padding: 10px !important;
     margin-top: calc(10% + 1vw);
     .texts {
-      margin-top: 8%;
+      margin: 5% 0;
       width: 85%;
       text-align: center;
     }
