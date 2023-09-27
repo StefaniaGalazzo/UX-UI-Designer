@@ -30,7 +30,7 @@ export default function MainComp() {
             <ToTopBtn href={"/#projects"} txt={"Projects"} toPosition />
             <ButtonsShadow txt={"Skills"} href={"/skills"} blank />
             <ButtonsShadow
-              href={"/assets/CV_StefaniaGalazzo_2023.pdf"}
+              href="/assets/files/CV_StefaniaGalazzo_2023-2024.pdf"
               txt={`CV`}
               download
             />

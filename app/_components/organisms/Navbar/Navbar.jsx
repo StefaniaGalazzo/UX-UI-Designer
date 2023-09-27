@@ -47,7 +47,7 @@ export default function Navbar({ id }) {
       </p>
 
       <a
-        href="/assets/CV_StefaniaGalazzo_2023.pdf"
+        href="/assets/files/CV_StefaniaGalazzo_2023-2024.pdf"
         download
         className={styles.downloadCV}
       >
