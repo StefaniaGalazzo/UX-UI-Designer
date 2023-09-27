@@ -3,11 +3,11 @@
 .main {
   display: flex;
   flex-wrap: wrap;
-  // padding: 120px;
+  padding: 100px;
   justify-content: flex-start;
   align-items: center;
-  width: 85%;
-  margin: 80px auto;
+  width: 100%;
+  // margin: 80px auto;
   gap: 13%;
   background-color: #f8f8f8;
   z-index: 1;
@@ -63,8 +63,8 @@
   .main {
     row-gap: 5%;
     justify-content: center;
-    // padding: 10px !important;
-    margin: 40px auto;
+    padding: 10px !important;
+    margin: 50px auto;
     .texts {
       margin: 5% 0;
       width: 85%;
