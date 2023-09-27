@@ -76,12 +76,18 @@ export default function MainComp() {
         img={"/assets/imgs/vurgmate-mock-crop.png"}
         gridTemplArea={`"b a"`}
         tags={[
-          { tag: "UI Design", id: "/vurgmate/#ui" },
-          { tag: "UX Design", id: "/vurgmate/#ux" },
-          { tag: "Brand Identity", id: "/vurgmate/#brand" },
-          { tag: "Wirefrime", id: "/vurgmate/#wire" },
-          { tag: "Mobile First", id: "/vurgmate/#ui" },
-          { tag: "Figma", id: "/vurgmate/#ui" },
+          { tag: "UI Design" },
+          { tag: "UX Design" },
+          { tag: "Brand Identity" },
+          { tag: "Wirefrime" },
+          { tag: "Mobile First" },
+          { tag: "Figma" },
+          // { tag: "UI Design", id: "/vurgmate/#ui" },
+          // { tag: "UX Design", id: "/vurgmate/#ux" },
+          // { tag: "Brand Identity", id: "/vurgmate/#brand" },
+          // { tag: "Wirefrime", id: "/vurgmate/#wire" },
+          // { tag: "Mobile First", id: "/vurgmate/#ui" },
+          // { tag: "Figma", id: "/vurgmate/#ui" },
         ]}
       />
       <Section
