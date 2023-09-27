@@ -13,15 +13,17 @@ export default function MainComp() {
         <Circle />
         <div className={styles.texts}>
           <h1 className={styles.description}>
-            Hi! I&apos;m a<span className={styles.enphasis}> UI Designer </span>
-            and
-            <span className={styles.enphasis}> Creative Fronteend</span>
+            Hi! I&apos;m a
+            <span className={styles.enphasis}> UX/UI Designer </span>
+            with a strong interest in
+            <span className={styles.enphasis}> coding</span>.
           </h1>
           <h3>
-            I like to draw and design web apps with great visual impact. As a UI
-            Designer I use Figma to create prototypes, as a Creative Frontend
-            Developer I create the base HTML, CSS and JS structure of the app
-            with the currently most used libraries and frameworks.
+            I love drawing and designing web applications with a strong visual
+            impact. As UX/UI designer my main work is to investigate the User
+            experience and derive an optimal design. Like Jr Frontend dev, I
+            like to create the basic HTML, CSS and JS structure for the
+            application to work using the most used libraries and frameworks.
             {/* <span> (React, Three, JS, GSAP, etc).</span> */}
           </h3>
           <div className={styles.cta}>
@@ -32,7 +34,6 @@ export default function MainComp() {
               txt={`CV`}
               download
             />
-
             <MailBtn />
           </div>
         </div>
@@ -67,23 +68,20 @@ export default function MainComp() {
         title={"Vurgmate"}
         subtitle={"Your best Vurger Experience"}
         bodytext={
-          "Vurgmate is a food delivery app dedicated to vegan sandiwitches lover/addicted. "
+          "Vurgmate is a food delivery app dedicated to vegan sandiwitches lover/addicted."
         }
-        cta={[
-          // { title: "the prototype", link: false },
-          { title: "the project", link: "/vurgmate" },
-        ]}
+        cta={[{ title: "the project", link: "/vurgmate" }]}
         bckColor={"linear-gradient(-37deg, #147537 5%, #fcc3bc 69%)"}
         txtColor={"rgb(0, 86, 65)"}
         img={"/assets/imgs/vurgmate-mock-crop.png"}
         gridTemplArea={`"b a"`}
         tags={[
-          { tag: "UI Design" },
-          { tag: "UX Design" },
-          { tag: "Brand Identity" },
-          { tag: "Wirefrime" },
-          { tag: "Mobile First" },
-          { tag: "Figma" },
+          { tag: "UI Design", id: "/vurgmate/#ui" },
+          { tag: "UX Design", id: "/vurgmate/#ux" },
+          { tag: "Brand Identity", id: "/vurgmate/#brand" },
+          { tag: "Wirefrime", id: "/vurgmate/#wire" },
+          { tag: "Mobile First", id: "/vurgmate/#ui" },
+          { tag: "Figma", id: "/vurgmate/#ui" },
         ]}
       />
       <Section

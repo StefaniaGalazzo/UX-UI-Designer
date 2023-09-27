@@ -4,7 +4,6 @@ import ContactSticky from "@/app/_components/atoms/ContactSticky/ContactSticky";
 import Navbar from "@/app/_components/organisms/Navbar/Navbar";
 import "/app/global.scss";
 import styles from "@/styles/pagesModules/queers.module.scss";
-import { PiTrademarkRegistered } from "react-icons/pi";
 import ToTopBtn from "@/app/_components/atoms/ToTopBtn/ToTopBtn";
 import Footer from "@/app/_components/UI/Footer/Footer";
 
@@ -86,12 +85,21 @@ export default function QueersApp() {
         <section className={styles.innerSection}>
           <h1>UX Design</h1>
           <p>
-            After interviewing a sample included in the reference target, User
-            Personas, User Journeys and an empathy map were outlined
+            After interviewing a sample included in the reference target,
+            different User Personas, User Journeys and an empathy map were
+            outlined. Nel target si individuano tre tipi principali di utenti:
+            1) chi ha bisogno di usufruire di servizi o supporto, che spesso
+            preferisce rimanere anonimo e non registrarsi; 2) chi è più
+            interessato alla parte ludica e al vivere la community; 3) le
+            associazioni che vogliono rendere raggiungibili e promuovere le
+            proprie attività rivolte alla comunità.
           </p>
           <div className={styles.imgs}>
             <img src="/assets/imgs/queers-personas.png" alt="user-persona-1" />
-            {/* <img src="/assets/imgs/personas-vurg-2.svg" alt="user-persona-2" /> */}
+            <img
+              src="/assets/imgs/queers-personas-2.png"
+              alt="user-persona-2"
+            />
           </div>
         </section>
 
@@ -127,17 +135,52 @@ export default function QueersApp() {
               approximately 127 screens.
             </p>
           </div>
-          <img
-            src={"/assets/imgs/vurg-ui-mockup.png"}
-            alt="UI design"
-            width={"80%"}
-            height={"auto"}
-            className={styles.mockup}
-          />
+          <div className={styles.videoContainer}>
+            <div className={styles.videoWrapper}>
+              <video controls autoPlay muted loop>
+                {/* <source src="myVideo.webm" type="video/webm" /> */}
+                <source
+                  src="/assets/videos/queers-intro.mp4"
+                  type="video/mp4"
+                />
+                <p>
+                  Your browser doesn&apos;t support HTML video. Here is a
+                  <a href="myVideo.mp4">link to the video</a> instead.
+                </p>
+              </video>
+            </div>
+            <div className={styles.videoWrapper}>
+              <video controls autoPlay muted loop>
+                {/* <source src="myVideo.webm" type="video/webm" /> */}
+                <source
+                  src="/assets/videos/queers-ospite.mp4"
+                  type="video/mp4"
+                />
+                <p>
+                  Your browser doesn&apos;t support HTML video. Here is a
+                  <a href="myVideo.mp4">link to the video</a> instead.
+                </p>
+              </video>
+            </div>
+            <div className={styles.videoWrapper}>
+              <video controls autoPlay muted loop>
+                {/* <source src="myVideo.webm" type="video/webm" /> */}
+                <source
+                  src="/assets/videos/queers-associazione.mp4"
+                  type="video/mp4"
+                />
+                <p>
+                  Your browser doesn&apos;t support HTML video. Here is a
+                  <a href="myVideo.mp4">link to the video</a> instead.
+                </p>
+              </video>
+            </div>
+          </div>
         </section>
         <ToTopBtn href={"#top"} toTOP />
         <Footer />
       </div>
+      {/* <Pagination pages={pages} page={1} lastPage={lastPage} /> */}
     </>
   );
 }

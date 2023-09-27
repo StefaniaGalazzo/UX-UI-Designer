@@ -7,8 +7,11 @@ import styles from "@/styles/pagesModules/vurgmate.module.scss";
 import { PiTrademarkRegistered } from "react-icons/pi";
 import ToTopBtn from "@/app/_components/atoms/ToTopBtn/ToTopBtn";
 import Footer from "@/app/_components/UI/Footer/Footer";
+import Pagination from "@/app/_components/atoms/Pagination/Pagination";
 
 export default function Vurgmate() {
+  const pages = ["/vurgmate", "/queers-app", "/roomatch"];
+  const lastPage = pages[pages.length - 1];
   return (
     <>
       <a id={"top"} className={styles.anchor}></a>
@@ -28,9 +31,11 @@ export default function Vurgmate() {
           gridTemplArea={`"b a"`}
           tags={[
             { tag: "Brand Identity", id: "#brand" },
-            { tag: "UX Design", id: "#ux" },
             { tag: "Wirefrime", id: "#wire" },
+            { tag: "UX Design", id: "#ux" },
             { tag: "UI Design", id: "#ui" },
+            { tag: "Mobile First", id: "#ui" },
+            { tag: "Figma", id: "#ui" },
           ]}
         />
 
@@ -47,10 +52,6 @@ export default function Vurgmate() {
             <p>
               Reaching Vurgmate as the end result. The Font chosen is the
               Poppins, with an evergreen look, a clear and impactful sans serif.
-              <br />
-              {/* <span className="bold">
-              A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-            </span> */}
             </p>
             <h5>
               VURGMATE
@@ -129,6 +130,7 @@ export default function Vurgmate() {
         <ToTopBtn href={"#top"} toTOP />
         <Footer />
       </div>
+      {/* <Pagination pages={pages} page={0} lastPage={lastPage} /> */}
     </>
   );
 }

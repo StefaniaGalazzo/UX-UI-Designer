@@ -39,141 +39,159 @@
     flex-direction: column;
     gap: 40px;
   }
-}
-.colors {
-  display: grid;
-  grid-template-columns: repeat(2, 33% 67%);
-  gap: 5%;
-  .colorBox {
-    background: linear-gradient(
-      to right,
-      #fcc3bc 20%,
-      #147537 75%,
-      #08471e 90%
-    );
-    position: relative;
-    min-height: 120px;
-  }
-  .colorDot {
-    position: absolute;
-    width: clamp(30px, 30px, 30px);
-    height: clamp(30px, 30px, 30px);
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    border: 3px solid #fff;
-    outline: 2px solid #000;
-
-    &:nth-child(1) {
-      background-color: #fcc3bc;
-      top: 30%;
-      left: 5%;
-      background: linear-gradient(145deg, rgba(248, 249, 251, 0.51), #ddaca6);
-      -webkit-box-shadow: 12px 12px 24px #c0928cbf,
-        -12px -12px 24px rgba(240, 248, 255, 0.4901960784);
-      box-shadow: 12px 12px 24px #c0928cbf,
-        -12px -12px 24px rgba(240, 248, 255, 0.4901960784);
-      animation: float 4s linear infinite;
-      //Ciao ste del futuro, sistema l'animazione con la trans in % per il resp. Tvb <3
-      @keyframes float {
-        0% {
-          top: 30%;
-          left: 5%;
-        }
-        25% {
-          // top: 40%;
-          left: 8%;
-        }
-        50% {
-          top: 60%;
-          left: 2%;
-        }
-        75% {
-          // top: 40%;
-          left: 8%;
-        }
-        100% {
-          top: 30%;
-          left: 5%;
-        }
-      }
-    }
-    &:nth-child(2) {
-      background-color: #147537;
-      top: 35%;
-      left: 51%;
-      background: linear-gradient(
-        145deg,
-        rgba(248, 249, 251, 0.51),
-        rgb(0, 86, 26)
-      );
-      -webkit-box-shadow: 12px 12px 24px rgba(1, 52, 24, 0.58),
-        -12px -12px 24px rgba(240, 248, 255, 0.4901960784);
-      box-shadow: 12px 12px 24px rgba(1, 52, 24, 0.58),
-        -12px -12px 24px rgba(240, 248, 255, 0.4901960784);
-      animation: float2 4s linear infinite;
-      @keyframes float2 {
-        0% {
-          top: 35%;
-          left: 51%;
-        }
-        25% {
-          // top: 40%;
-          left: 45%;
-        }
-        50% {
-          top: 15%;
-          // left: 20%;
-        }
-        75% {
-          top: 60%;
-          left: 40%;
-        }
-        100% {
-          top: 35%;
-          left: 51%;
-        }
-      }
-    }
-    &:nth-child(3) {
-      background-color: #08471e;
-      top: 40%;
-      left: 90%;
-      background: linear-gradient(
-        145deg,
-        rgba(248, 249, 251, 0.46),
-        rgb(1, 47, 15)
-      );
-      -webkit-box-shadow: 12px 12px 24px rgba(1, 15, 7, 0.61),
-        -12px -12px 24px rgba(240, 248, 255, 0.34);
-      box-shadow: 12px 12px 24px rgba(1, 15, 7, 0.61),
-        -12px -12px 24px rgba(240, 248, 255, 0.34);
-
-      animation: float3 5s linear infinite;
-      @keyframes float3 {
-        0% {
-          top: 40%;
-          left: 90%;
-        }
-        25% {
-          // top: 40%;
-          left: 85%;
-        }
-        50% {
-          top: 15%;
-          // left: 20%;
-        }
-        75% {
-          top: 60%;
-          left: 80%;
-        }
-        100% {
-          top: 40%;
-          left: 90%;
-        }
+  .videoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    .videoWrapper {
+      height: 500px;
+      max-height: 500px;
+      overflow: hidden;
+      border: 1px solid;
+      display: grid;
+      place-content: end;
+      video {
+        max-width: 280px;
       }
     }
   }
 }
+// .colors {
+//   display: grid;
+//   grid-template-columns: repeat(2, 33% 67%);
+//   gap: 5%;
+//   .colorBox {
+//     background: linear-gradient(
+//       to right,
+//       #fcc3bc 20%,
+//       #147537 75%,
+//       #08471e 90%
+//     );
+//     position: relative;
+//     min-height: 120px;
+//   }
+//   .colorDot {
+//     position: absolute;
+//     width: clamp(30px, 30px, 30px);
+//     height: clamp(30px, 30px, 30px);
+//     border-radius: 40px;
+//     -webkit-border-radius: 40px;
+//     border: 3px solid #fff;
+//     outline: 2px solid #000;
+
+//     &:nth-child(1) {
+//       background-color: #fcc3bc;
+//       top: 30%;
+//       left: 5%;
+//       background: linear-gradient(145deg, rgba(248, 249, 251, 0.51), #ddaca6);
+//       -webkit-box-shadow: 12px 12px 24px #c0928cbf,
+//         -12px -12px 24px rgba(240, 248, 255, 0.4901960784);
+//       box-shadow: 12px 12px 24px #c0928cbf,
+//         -12px -12px 24px rgba(240, 248, 255, 0.4901960784);
+//       animation: float 4s linear infinite;
+//       //Ciao ste del futuro, sistema l'animazione con la trans in % per il resp. Tvb <3
+//       @keyframes float {
+//         0% {
+//           top: 30%;
+//           left: 5%;
+//         }
+//         25% {
+//           // top: 40%;
+//           left: 8%;
+//         }
+//         50% {
+//           top: 60%;
+//           left: 2%;
+//         }
+//         75% {
+//           // top: 40%;
+//           left: 8%;
+//         }
+//         100% {
+//           top: 30%;
+//           left: 5%;
+//         }
+//       }
+//     }
+//     &:nth-child(2) {
+//       background-color: #147537;
+//       top: 35%;
+//       left: 51%;
+//       background: linear-gradient(
+//         145deg,
+//         rgba(248, 249, 251, 0.51),
+//         rgb(0, 86, 26)
+//       );
+//       -webkit-box-shadow: 12px 12px 24px rgba(1, 52, 24, 0.58),
+//         -12px -12px 24px rgba(240, 248, 255, 0.4901960784);
+//       box-shadow: 12px 12px 24px rgba(1, 52, 24, 0.58),
+//         -12px -12px 24px rgba(240, 248, 255, 0.4901960784);
+//       animation: float2 4s linear infinite;
+//       @keyframes float2 {
+//         0% {
+//           top: 35%;
+//           left: 51%;
+//         }
+//         25% {
+//           // top: 40%;
+//           left: 45%;
+//         }
+//         50% {
+//           top: 15%;
+//           // left: 20%;
+//         }
+//         75% {
+//           top: 60%;
+//           left: 40%;
+//         }
+//         100% {
+//           top: 35%;
+//           left: 51%;
+//         }
+//       }
+//     }
+//     &:nth-child(3) {
+//       background-color: #08471e;
+//       top: 40%;
+//       left: 90%;
+//       background: linear-gradient(
+//         145deg,
+//         rgba(248, 249, 251, 0.46),
+//         rgb(1, 47, 15)
+//       );
+//       -webkit-box-shadow: 12px 12px 24px rgba(1, 15, 7, 0.61),
+//         -12px -12px 24px rgba(240, 248, 255, 0.34);
+//       box-shadow: 12px 12px 24px rgba(1, 15, 7, 0.61),
+//         -12px -12px 24px rgba(240, 248, 255, 0.34);
+
+//       animation: float3 5s linear infinite;
+//       @keyframes float3 {
+//         0% {
+//           top: 40%;
+//           left: 90%;
+//         }
+//         25% {
+//           // top: 40%;
+//           left: 85%;
+//         }
+//         50% {
+//           top: 15%;
+//           // left: 20%;
+//         }
+//         75% {
+//           top: 60%;
+//           left: 80%;
+//         }
+//         100% {
+//           top: 40%;
+//           left: 90%;
+//         }
+//       }
+//     }
+//   }
+// }
 .anchor {
   display: block;
   height: 80px;
