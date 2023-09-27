@@ -6,7 +6,8 @@
   // padding: 120px;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 85%;
+  margin: 80px auto;
   gap: 13%;
   background-color: #f8f8f8;
   z-index: 1;
@@ -63,6 +64,7 @@
     row-gap: 5%;
     justify-content: center;
     // padding: 10px !important;
+    margin: unset;
     margin-top: calc(10% + 1vw);
     .texts {
       margin: 5% 0;
