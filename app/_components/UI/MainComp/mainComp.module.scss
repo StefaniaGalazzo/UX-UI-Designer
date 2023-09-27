@@ -3,7 +3,7 @@
 .main {
   display: flex;
   flex-wrap: wrap;
-  padding: 120px;
+  // padding: 120px;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
@@ -62,7 +62,7 @@
   .main {
     row-gap: 5%;
     justify-content: center;
-    padding: 10px !important;
+    // padding: 10px !important;
     margin-top: calc(10% + 1vw);
     .texts {
       margin: 5% 0;
