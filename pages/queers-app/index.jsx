@@ -19,7 +19,7 @@ export default function QueersApp() {
           title={"Queers App"}
           subtitle={"Find a safespace everywhere"}
           bodytext={
-            "A mobile app that offers itself as a point of reference for the LGBTQ+ community, dedicated on the one hand to providing services, entertainment and products to users; on the other hand to helping local associations to network in the area with collaborations and information, awareness-raising actions, training, support etc."
+            "A mobile app that offers itself as a point of reference for the LGBTQ+ community, dedicated on the one hand to provide services, entertainment and products to users; on the other hand to help local associations to network in the area with collaborations and information, awareness-raising actions , training, support etc."
           }
           bckColor={"#fff6fe"}
           txtColor={"#dc6dd0"}
@@ -44,17 +44,17 @@ export default function QueersApp() {
           <h1>Brand Identity</h1>
           <div className={styles.textBoxes}>
             <p>
-              the app is aimed primarily at the LGBTQ+ community, and entities
-              close to and/or in support of the community{"'"}s rights; hence
-              the name Queers, a highly used and strongly identifying term, with
-              a direct reference and lively tone.
+              the app is targeted primarily at the LGBTQ+ community, and
+              entities close to and/or in support of the community's rights;
+              hence the name Queers, a highly used and strongly identifying
+              term, with a direct reference and lively tone.
             </p>
             <p>
               The logo features the symbol par excellence of queer identities:
               the asterisk, in different variations to emphasize the concept of
               diversity. The colors recall the classic LGBT flag but once again
               underline the identity of the term {'"Queer"'} with its bright
-              fuchsia
+              fuchsia.
             </p>
             <div className={styles.logos}>
               <img src="/assets/imgs/logo-queers.png" alt="queers logo" />
@@ -87,12 +87,12 @@ export default function QueersApp() {
           <p>
             After interviewing a sample included in the reference target,
             different User Personas, User Journeys and an empathy map were
-            outlined. Nel target si individuano tre tipi principali di utenti:
-            1) chi ha bisogno di usufruire di servizi o supporto, che spesso
-            preferisce rimanere anonimo e non registrarsi; 2) chi è più
-            interessato alla parte ludica e al vivere la community; 3) le
-            associazioni che vogliono rendere raggiungibili e promuovere le
-            proprie attività rivolte alla comunità.
+            outlined. In the target there are three main type of users: 1) those
+            who need the service or the support, they often prefer to stay
+            anonymous and to not register; 2) those who are more interested to
+            the recreational part and to the life of the community; 3) the
+            associations who want to promote their activities toward the
+            community.
           </p>
           <div className={styles.imgs}>
             <img src="/assets/imgs/queers-personas.png" alt="user-persona-1" />
@@ -110,7 +110,7 @@ export default function QueersApp() {
           <div className={styles.textBoxes}>
             <p>
               For this project the wireframes were digitally sketched with
-              temporary vector graphics
+              temporary vector graphics.
             </p>
           </div>
 

@@ -104,6 +104,11 @@ export default function skills() {
           alt: "Javascript",
           description: "★★☆☆☆",
         },
+        {
+          src: "/assets/imgs/ang.svg",
+          alt: "Angular",
+          description: "★☆☆☆☆",
+        },
       ],
     },
     {
@@ -116,13 +121,17 @@ export default function skills() {
         },
         {
           src: "/assets/imgs/eng.svg",
-          alt: "English: Compared B1",
-          description: "Compared B1",
+          alt: "★★☆☆☆",
+          description: "★★☆☆☆",
+          // alt: "English: Compared B1",
+          // description: "Compared B1",
         },
         {
           src: "/assets/imgs/esp.svg",
-          alt: "Spanish: Compared B1",
-          description: "Compared B1",
+          alt: "★★☆☆☆",
+          description: "★★☆☆☆",
+          // alt: "Spanish: Compared B1",
+          // description: "Compared B1",
         },
       ],
     },
