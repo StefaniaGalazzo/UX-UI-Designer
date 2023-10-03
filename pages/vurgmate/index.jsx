@@ -23,7 +23,7 @@ export default function Vurgmate() {
           title={"Vurgmate"}
           subtitle={"Your best Vurger Experience"}
           bodytext={
-            "Vurgmate is a food delivery app dedicated to vegan sandiwitches lover/addicted. "
+            "Vurgmate is a food delivery app dedicated to vegan sandwiches lovers/addicted."
           }
           bckColor={"linear-gradient(-37deg, #147537 5%, #fcc3bc 69%)"}
           txtColor={"rgb(0, 86, 65)"}
@@ -45,13 +45,12 @@ export default function Vurgmate() {
           <h1>Brand Identity</h1>
           <div className={styles.textBoxes}>
             <p>
-              The identity for the brand aims to be original and unequivocal.
-              For the name choose to combine three main concepts: burger, veg,
-              soulmate.
+              The identity of the brand aims to be original and unequivocal. The
+              name combines three main concepts: burger, veg, and soulmate.
             </p>
             <p>
-              Reaching Vurgmate as the end result. The Font chosen is the
-              Poppins, with an evergreen look, a clear and impactful sans serif.
+              Vurgmate is the end result. The Font chosen is the Poppins, with
+              an evergreen look, a clear and impactful sans-serif.
             </p>
             <h5>
               VURGMATE
@@ -62,10 +61,10 @@ export default function Vurgmate() {
           </div>
           <div className={styles.colors}>
             <p>
-              The colors chosen aim to be lively, linked to the field of Food in
-              a fancy style, with the addition of green for an elegant
-              combination, fresh and linked to the concept of veg, green and
-              healthy. Sensitive issues for the target audience.
+              The colors chosen aim to be lively and fancy, easily linked to the
+              field of Food, with the addition of green for an elegant touch, a
+              fresh combination that connects to the concept of veg, green and
+              healthy: a sensitive issues for the target audience.
             </p>
             <div className={styles.colorBox}>
               <div className={styles.colorDot} title="#fcc3bc"></div>
@@ -80,8 +79,8 @@ export default function Vurgmate() {
         <section className={styles.innerSection}>
           <h1>UX Design</h1>
           <p>
-            After interviewing a sample included in the reference target, User
-            Personas, User Journeys and an empathy map were outlined
+            After interviewing a sample, included in the reference target, User
+            Personas, User Journeys and an Empathy Map were outlined.
           </p>
           <div className={styles.imgs}>
             <img src="/assets/imgs/personas-vurg-1.svg" alt="user-personas-1" />

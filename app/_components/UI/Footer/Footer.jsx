@@ -6,9 +6,8 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <p>
-        Do you like what you see? Are you looking for a UX/UI designer for a
-        project or to integrate into your team?
-        <span className="bold"> Contact me now</span>
+        Are you looking for a UX/UI designer for a project or a new teammate to
+        integrate into your team? <span className="bold"> Contact me now</span>
       </p>
       <div className={styles.btns}>
         <p className="relative" style={{ margin: "0 20px", display: "block" }}>

@@ -19,7 +19,7 @@ export default function QueersApp() {
           title={"Queers App"}
           subtitle={"Find a safespace everywhere"}
           bodytext={
-            "A mobile app that offers itself as a point of reference for the LGBTQ+ community, dedicated on the one hand to providing services, entertainment and products to users on the other hand to helping local associations to network in the area with collaborations and information, awareness-raising actions , training, support etc."
+            "A mobile app that offers itself as a point of reference for the LGBTQ+ community, dedicated on the one hand to providing services, entertainment and products to users; on the other hand to helping local associations to network in the area with collaborations and information, awareness-raising actions, training, support etc."
           }
           bckColor={"#fff6fe"}
           txtColor={"#dc6dd0"}
