@@ -13,7 +13,7 @@ export default function MainComp() {
         <Circle />
         <div className={styles.texts}>
           <h1 className={styles.description}>
-            Hi! I&apos;m a
+            Hi! I{`'`}m a
             <span className={styles.enphasis}> UX/UI Designer </span>
             with a strong interest in
             <span className={styles.enphasis}> coding</span>.
