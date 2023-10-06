@@ -30,11 +30,12 @@ export default function MainComp() {
             <ToTopBtn href={"/#projects"} txt={"Projects"} toPosition />
             <ButtonsShadow txt={"Skills"} href={"/skills"} blank />
             <ButtonsShadow
-              href="/assets/files/CV_StefaniaGalazzo_2023-2024.pdf"
+              href="/assets/files/CV-StefaniaGalazzo-2023-2024.pdf"
               txt={`CV`}
               download
             />
-            <MailBtn />
+            <ButtonsShadow href="/3D-&-more" txt={`3D & more`} blank />
+            {/* <MailBtn /> */}
           </div>
         </div>
       </div>
@@ -103,7 +104,7 @@ export default function MainComp() {
           //   link: "https://xd.adobe.com/view/8ac780e6-119f-4e6d-b1a8-a186d38c7f41-df94/?fullscreen",
           //   blank: true,
           // },
-          { title: "the project", link: "/queers-app" },
+          { title: ">> the project", link: "/queers-app" },
         ]}
         bckColor={"#fff6fe"}
         txtColor={"#dc6dd0"}
@@ -128,7 +129,7 @@ export default function MainComp() {
         bodytext={`Tired of roomate horror stories? Welcome to RooMatch, a mobile first web app where you can find the perfect room at the perfect price with the perfect roommate!`}
         cta={[
           // { title: "the prototype", link: false },
-          { title: "the project", link: "/roomatch" },
+          { title: ">> the project", link: "/roomatch" },
         ]}
         bckColor={"#e2eef6"}
         txtColor={"#a90097"}
