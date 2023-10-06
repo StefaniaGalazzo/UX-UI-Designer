@@ -64,7 +64,7 @@ export default function ThreeDAndMore() {
             </span>
           </p>
 
-          <div className={styles.videoWrapper2}>
+          <div className={styles.videoWrapper}>
             <video controls autoPlay muted loop>
               {/* <source src="myVideo.webm" type="video/webm" /> */}
               <source src="/assets/videos/p5j.mp4" type="video/mp4" />
