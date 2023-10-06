@@ -1,0 +1,79 @@
+@import "/styles/index.scss";
+
+.container {
+  margin: 120px auto;
+  padding: 40px;
+  .innerSection {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5%;
+    justify-content: space-between;
+    p,
+    .videoWrapper,
+    .videoWrapper2 {
+      width: 45%;
+    }
+    .videoWrapper {
+      display: grid;
+      place-content: space-around;
+      height: 300px;
+      max-height: 300px;
+      overflow: hidden;
+      //   border: 1px solid;
+      border-radius: 21px;
+      -webkit-border-radius: 21px;
+      -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+      box-shadow: 12px 12px 20px -5px #bfc4d4, -12px -12px 12px #f0f0f0;
+      video {
+        width: 120%;
+      }
+    }
+    .videoWrapper2 {
+      display: grid;
+      place-content: end;
+      height: 300px;
+      max-height: 300px;
+      overflow: hidden;
+      //   border: 1px solid;
+      border-radius: 21px;
+      -webkit-border-radius: 21px;
+      -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+      box-shadow: 12px 12px 20px -5px #bfc4d4, -12px -12px 12px #f0f0f0;
+      video {
+        width: 100%;
+      }
+    }
+  }
+  .highlighted {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 18px;
+    position: relative;
+    font-family: $serifTitle;
+    a {
+      color: inherit;
+      &::after {
+        display: none;
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: -4px;
+        width: calc(100% + 8px);
+        height: 1px;
+        border: 1px solid;
+        animation: highlighted 0.5s ease-in-out;
+        z-index: 1;
+      }
+      &:hover {
+        color: inherit;
+        font-weight: bold;
+        &::after {
+          display: block;
+        }
+      }
+    }
+  }
+}

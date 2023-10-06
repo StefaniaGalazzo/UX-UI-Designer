@@ -19,7 +19,7 @@ export default function Footer() {
         </p>
         <p>
           <ButtonsShadow
-            href="/assets/files/CV_StefaniaGalazzo_2023-2024.pdf"
+            href="/assets/files/CV-StefaniaGalazzo-2023-2024.pdf"
             txt={`CV`}
             download
           />
