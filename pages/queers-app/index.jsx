@@ -137,7 +137,7 @@ export default function QueersApp() {
           </div>
           <div className={styles.videoContainer}>
             <div className={styles.videoWrapper}>
-              <video controls autoPlay playsinline muted loop>
+              <video controls autoPlay playsInline muted loop>
                 {/* <source src="myVideo.webm" type="video/webm" /> */}
                 <source
                   src="/assets/videos/queers-intro.mp4"
@@ -150,7 +150,7 @@ export default function QueersApp() {
               </video>
             </div>
             <div className={styles.videoWrapper}>
-              <video controls autoPlay playsinline muted loop>
+              <video controls autoPlay playsInline muted loop>
                 {/* <source src="myVideo.webm" type="video/webm" /> */}
                 <source
                   src="/assets/videos/queers-ospite.mp4"
@@ -163,7 +163,7 @@ export default function QueersApp() {
               </video>
             </div>
             <div className={styles.videoWrapper}>
-              <video controls autoPlay playsinline muted loop>
+              <video controls autoPlay playsInline muted loop>
                 {/* <source src="myVideo.webm" type="video/webm" /> */}
                 <source
                   src="/assets/videos/queers-associazione.mp4"
