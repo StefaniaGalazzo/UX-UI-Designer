@@ -25,7 +25,7 @@ export default function ThreeDAndMore() {
           </p>
 
           <div className={styles.videoWrapper}>
-            <video controls autoPlay muted loop>
+            <video controls autoPlay playsinline muted loop>
               {/* <source src="myVideo.webm" type="video/webm" /> */}
               <source src="/assets/videos/donut.mp4" type="video/mp4" />
               <p>
@@ -65,7 +65,7 @@ export default function ThreeDAndMore() {
           </p>
 
           <div className={styles.videoWrapper}>
-            <video controls autoPlay muted loop>
+            <video controls autoPlay playsinline muted loop>
               {/* <source src="myVideo.webm" type="video/webm" /> */}
               <source src="/assets/videos/p5j.mp4" type="video/mp4" />
               <p>
