@@ -1,4 +1,4 @@
-@import "/styles/index.scss";
+@import '/styles/index.scss';
 
 * {
   box-sizing: border-box;
@@ -34,7 +34,9 @@ a {
     color: inherit;
   }
 }
-
+.link-cv:hover {
+  color: $vividBlue;
+}
 button {
   font-family: $mainFont;
   background-color: transparent;
